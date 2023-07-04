@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "./logo.png";
 
 const Top = () => {
   return (
@@ -15,7 +16,14 @@ const Top = () => {
       >
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#">
-            Navbar
+            <img
+              src={logo}
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            zkFable
           </a>
         </div>
       </nav>
