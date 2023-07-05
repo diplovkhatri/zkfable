@@ -58,12 +58,12 @@ const Intro = () => {
               }}
             >
               <li className="col">
-                <a href="#!">
+                <a href="https://twitter.com/fablenft_">
                   <FaTwitter />
                 </a>
               </li>
               <li className="col">
-                <a href="#!">
+                <a href="https://discord.com/invite/pEBJZxUj">
                   <FaDiscord />
                 </a>
               </li>
