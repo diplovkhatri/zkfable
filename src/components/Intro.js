@@ -6,7 +6,12 @@ const Intro = () => {
   return (
     <Container>
       <div className="row">
-        <span className="col-xm-12 col-sm-12 col-md-12 col-lg-12 font1 pt-4">
+        <span
+          className="col-xm-12 col-sm-12 col-md-12 col-lg-12 font1 pt-4"
+          style={{
+            fontSize: "96px"
+          }}
+        >
           FABLE
         </span>
         <span
