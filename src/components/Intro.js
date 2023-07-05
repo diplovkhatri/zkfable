@@ -41,9 +41,9 @@ const Intro = () => {
       <div className="container">
         <div className="row d-flex justify-content-evenly fs-1 mt-5">
           <span
+            className="font1"
             style={{
-              color: "#B1E193",
-              fontFamily: "Chelsea Market"
+              color: "#B1E193"
             }}
           >
             Join Our Community

@@ -9,12 +9,7 @@ const Teams = () => {
   return (
     <Container fluid>
       <div className="row">
-        <div
-          className="col-sm-12 col-lg-12 col-md-12 col-xm-12 bg-black text-white fw-bold fs-1 p-4"
-          style={{
-            fontFamily: "Chelsea Market"
-          }}
-        >
+        <div className="font1 col-sm-12 col-lg-12 col-md-12 col-xm-12 bg-black text-white fw-bold fs-1 p-4">
           THE TEAM
         </div>
         <div className="col-sm-12">
