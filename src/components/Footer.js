@@ -26,20 +26,36 @@ const Footer = () => (
           </p>
         </div>
 
-        <div className="col-md-3 mb-md-0 mb-3 align-self-center">
-          <h5 className="text-uppercase">Follow Us</h5>
-          <ul className="list-unstyled row  fs-1 d-flex justify-content-evenly">
-            <li className="col">
-              <a href="#!">
-                <FaTwitter />
-              </a>
-            </li>
-            <li className="col">
-              <a href="#!">
-                <FaDiscord />
-              </a>
-            </li>
-          </ul>
+        <div className="col-md-3 mb-md-0 mb-3">
+          <div className="row d-flex justify-content-evenly fs-3 mt-5">
+            <span>Follow Us</span>
+            <div
+              className="d-flex justify-content-center"
+              style={{
+                marginTop: "-10px"
+              }}
+            >
+              <ul
+                className="list-unstyled row d-flex justify-content-between"
+                style={{
+                  fontSize: "42px",
+                  marginTop: "-10px",
+                  padding: "5px"
+                }}
+              >
+                <li className="col">
+                  <a href="#!">
+                    <FaTwitter />
+                  </a>
+                </li>
+                <li className="col">
+                  <a href="#!">
+                    <FaDiscord />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <div className="col-md-4 mb-md-0 mb-3 align-self-center">
