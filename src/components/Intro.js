@@ -17,7 +17,7 @@ const Intro = () => {
           #1 NFT community on the internet
         </p>
       </div>
-      <div className="container" style={{ width: "250px" }}>
+      {/* <div className="container" style={{ width: "250px" }}>
         <div className="border border-2 border-white rounded-5 d-flex justify-content-evenly mt-4 pt-3">
           <p>Buy</p>
           <p
@@ -29,7 +29,7 @@ const Intro = () => {
           ></p>
           <p>9.8</p>
         </div>
-      </div>
+      </div> */}
       <div className="container pt-5 row">
         <p className="fs-6 col">
           we are building a decentralized community for the people by the people
