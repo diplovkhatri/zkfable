@@ -17,7 +17,7 @@ const Intro = () => {
         >
           FABLE for loved one, FABLE for everyone
         </span>
-        <p
+        {/* <p
           className="col-xm-12 col-sm-12 col-md-12 col-lg-12 fs-1 mt-5"
           style={{
             color: "#B1E193",
@@ -25,14 +25,14 @@ const Intro = () => {
           }}
         >
           #1 NFT community on the internet
-        </p>
+        </p> */}
       </div>
 
-      <div className="container row">
+      {/* <div className="container row">
         <p className="fs-3 col" style={{ marginTop: "-25px" }}>
           we are building a decentralized community for the people.
         </p>
-      </div>
+      </div> */}
       <div className="container">
         <div className="row d-flex justify-content-evenly fs-1 mt-5">
           <span
