@@ -17,7 +17,7 @@ const Teams = () => {
         <div className="col-sm-12">
           <div className="row gy-4">
             <div className="col-lg-3 col-md-3 col-sm-12 bg-black d-flex justify-content-center">
-              <Card style={{ width: "18rem", border: "none" }}>
+              <Card style={{ width: "13rem", border: "none" }}>
                 <Card.Img
                   src={team1}
                   style={{
@@ -40,7 +40,7 @@ const Teams = () => {
               </Card>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xm-12 bg-black d-flex justify-content-center">
-              <Card style={{ width: "18rem", border: "none" }}>
+              <Card style={{ width: "13rem", border: "none" }}>
                 <Card.Img
                   src={team1}
                   style={{
@@ -63,7 +63,7 @@ const Teams = () => {
               </Card>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xm-12 bg-black d-flex justify-content-center">
-              <Card style={{ width: "18rem", border: "none" }}>
+              <Card style={{ width: "13rem", border: "none" }}>
                 <Card.Img
                   src={team1}
                   style={{
@@ -86,7 +86,7 @@ const Teams = () => {
               </Card>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xm-12 bg-black d-flex justify-content-center">
-              <Card style={{ width: "18rem", border: "none" }}>
+              <Card style={{ width: "13rem", border: "none" }}>
                 <Card.Img
                   src={team1}
                   style={{
