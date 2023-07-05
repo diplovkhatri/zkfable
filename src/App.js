@@ -8,7 +8,7 @@ import Top from "./components/Top";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <Top />
       <Intro />
       <Looks />

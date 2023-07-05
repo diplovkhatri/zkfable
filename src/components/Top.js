@@ -10,8 +10,7 @@ const Top = () => {
           borderTop: "0px",
           borderLeft: "0px",
           borderRight: "0px",
-
-          boxShadow: "1px 1px 1px gray"
+          boxShadow: "0 4px 2px -2px gray"
         }}
       >
         <div class="container-fluid">
