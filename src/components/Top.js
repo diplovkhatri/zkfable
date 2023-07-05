@@ -20,7 +20,7 @@ const Top = () => {
             height: "50px"
           }}
         >
-          <a class="navbar-brand text-white d-flex" href="#">
+          <a class="navbar-brand text-white d-flex" href="/">
             <img
               src={logo}
               alt=""
