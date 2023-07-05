@@ -20,7 +20,8 @@ const Intro = () => {
         <p
           className="col-xm-12 col-sm-12 col-md-12 col-lg-12 fs-1 mt-5"
           style={{
-            color: "#B1E193"
+            color: "#B1E193",
+            fontFamily: "Chelsea Market"
           }}
         >
           #1 NFT community on the internet
@@ -36,7 +37,8 @@ const Intro = () => {
         <div className="row d-flex justify-content-evenly fs-1 mt-5">
           <span
             style={{
-              color: "#B1E193"
+              color: "#B1E193",
+              fontFamily: "Chelsea Market"
             }}
           >
             Join Our Community

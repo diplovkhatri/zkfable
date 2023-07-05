@@ -11,9 +11,16 @@ const Footer = () => (
     <div className="container-fluid text-center text-md-left">
       <div className="row">
         <div className="col-md-5 mt-md-0 mt-3">
-          <h5 className=" font1">zkFABLE</h5>
+          <h5
+            className=" font1"
+            style={{
+              fontSize: "64px"
+            }}
+          >
+            FABLE
+          </h5>
           <p>
-            zkFABLE is a digital art collection and global community of
+            FABLE is a digital art collection and global community of
             creators,developers, entrepreneurs,athletes,artists, experimenters
             and innovators.
           </p>
