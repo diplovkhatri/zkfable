@@ -3,7 +3,7 @@ import { FaTwitter, FaDiscord } from "react-icons/fa6";
 
 const Footer = () => (
   <footer
-    className="page-footer font-small blue pt-4 bg-black text-white"
+    className="page-footer font-small blue pt-4 mt-5 bg-black text-white"
     style={{
       borderTop: "1px solid gray"
     }}

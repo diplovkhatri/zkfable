@@ -16,7 +16,7 @@ const Teams = () => {
         </div>
         <div className="col-sm-12">
           <div className="row gy-4">
-            <div className="col-lg-6 col-md-6 col-sm-12 bg-black d-flex justify-content-center">
+            <div className="col-lg-3 col-md-3 col-sm-12 bg-black d-flex justify-content-center">
               <Card style={{ width: "18rem", border: "none" }}>
                 <Card.Img
                   src={team1}
@@ -39,7 +39,7 @@ const Teams = () => {
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xm-12 bg-black d-flex justify-content-center">
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xm-12 bg-black d-flex justify-content-center">
               <Card style={{ width: "18rem", border: "none" }}>
                 <Card.Img
                   src={team1}
@@ -62,10 +62,7 @@ const Teams = () => {
                 </Card.Body>
               </Card>
             </div>
-          </div>
-          <br />
-          <div className="row gy-4">
-            <div className="col-lg-6 col-md-6 col-sm-12  bg-black d-flex justify-content-center">
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xm-12 bg-black d-flex justify-content-center">
               <Card style={{ width: "18rem", border: "none" }}>
                 <Card.Img
                   src={team1}
@@ -81,14 +78,14 @@ const Teams = () => {
                   }}
                 >
                   <Card.Text>
-                    Zoe Pega
+                    Sam Pega
                     <br />
-                    Marketing Head
+                    Developer
                   </Card.Text>
                 </Card.Body>
               </Card>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xm-12 bg-black d-flex justify-content-center">
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xm-12 bg-black d-flex justify-content-center">
               <Card style={{ width: "18rem", border: "none" }}>
                 <Card.Img
                   src={team1}
@@ -104,9 +101,9 @@ const Teams = () => {
                   }}
                 >
                   <Card.Text>
-                    Papa Pega
+                    Sam Pega
                     <br />
-                    NFT Artist
+                    Developer
                   </Card.Text>
                 </Card.Body>
               </Card>
