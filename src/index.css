@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 0.18rem;
-  word-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.05rem;
   color: white;
   background-color: black;
 }

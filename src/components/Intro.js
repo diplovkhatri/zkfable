@@ -1,15 +1,24 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { FaTwitter, FaDiscord } from "react-icons/fa6";
 
 const Intro = () => {
   return (
     <Container>
       <div className="row">
-        <span className="fs-1 col-xm-12 col-sm-12 col-md-12 col-lg-12 font1 pt-4">
-          THE zkFABLE
+        <span className="col-xm-12 col-sm-12 col-md-12 col-lg-12 font1 pt-4">
+          FABLE
+        </span>
+        <span
+          className="col-xm-12 col-sm-12 col-md-12 col-lg-12 fs-4"
+          style={{
+            color: "#B4B4B4"
+          }}
+        >
+          FABLE for loved one, FABLE for everyone
         </span>
         <p
-          className="col-xm-12 col-sm-12 col-md-12 col-lg-12 fs-5"
+          className="col-xm-12 col-sm-12 col-md-12 col-lg-12 fs-1 mt-5"
           style={{
             color: "#B1E193"
           }}
@@ -17,24 +26,48 @@ const Intro = () => {
           #1 NFT community on the internet
         </p>
       </div>
-      {/* <div className="container" style={{ width: "250px" }}>
-        <div className="border border-2 border-white rounded-5 d-flex justify-content-evenly mt-4 pt-3">
-          <p>Buy</p>
-          <p
-            style={{
-              width: "2px",
-              border: "2px solid white",
-              height: "30px"
-            }}
-          ></p>
-          <p>9.8</p>
-        </div>
-      </div> */}
-      <div className="container pt-5 row">
-        <p className="fs-6 col">
-          we are building a decentralized community for the people by the people
-          and the people
+
+      <div className="container row">
+        <p className="fs-3 col" style={{ marginTop: "-25px" }}>
+          we are building a decentralized community for the people.
         </p>
+      </div>
+      <div className="container">
+        <div className="row d-flex justify-content-evenly fs-1 mt-5">
+          <span
+            style={{
+              color: "#B1E193"
+            }}
+          >
+            Join Our Community
+          </span>
+          <div
+            className="d-flex justify-content-center"
+            style={{
+              marginTop: "-10px"
+            }}
+          >
+            <ul
+              className="list-unstyled row d-flex justify-content-between"
+              style={{
+                fontSize: "48px",
+                marginTop: "-10px",
+                padding: "5px"
+              }}
+            >
+              <li className="col">
+                <a href="#!">
+                  <FaTwitter />
+                </a>
+              </li>
+              <li className="col">
+                <a href="#!">
+                  <FaDiscord />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </Container>
   );

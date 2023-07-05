@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "./logo.png";
+import { Container } from "react-bootstrap";
 
 const Top = () => {
   return (
-    <>
+    <Container>
       <nav
         class="navbar"
         style={{
@@ -13,20 +14,36 @@ const Top = () => {
           boxShadow: "0 4px 2px -2px gray"
         }}
       >
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">
+        <div
+          class="container"
+          style={{
+            height: "50px"
+          }}
+        >
+          <a class="navbar-brand text-white d-flex" href="#">
             <img
               src={logo}
               alt=""
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
+              width="35"
+              height="45"
+              class="d-inline-block"
+              style={{
+                marginBottom: "-45px"
+              }}
             />
-            zkFable
+            <p
+              className="fs-3 mt-2"
+              style={{
+                marginLeft: "5px",
+                marginBottom: "-3px"
+              }}
+            >
+              Fable
+            </p>
           </a>
         </div>
       </nav>
-    </>
+    </Container>
   );
 };
 
