@@ -1,17 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Footer from "./components/Footer";
 import Teams from "./components/Teams";
 import Looks from "./components/Looks";
 import Intro from "./components/Intro";
-import Top from "./components/Top";
+import Roadmap from "./components/roadmap/Roadmap";
+import { Fade } from "react-reveal";
 
 function App() {
   return (
-    <div className="App container">
-      <Top />
+    <div className="App overflow-hidden">
+      {/* <Top /> */}
       <Intro />
       <Looks />
+      <Roadmap />
       <Teams />
       <Footer />
     </div>

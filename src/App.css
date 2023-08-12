@@ -1,10 +1,39 @@
 .App {
   text-align: center;
-  background-color: black;
+  background-color: white;
+
+  padding: 0px;
 }
 .font1 {
-  color: #fff;
-  font-family: "Chelsea Market", cursive;
+  color: #000;
+  font-family: "Chelsea Market";
 
   font-weight: 400;
 }
+/* .hov {
+  background: none;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border: 5px solid;
+  border-image: linear-gradient(
+      to right,
+      black,
+      red,
+      gold,
+      blue,
+      green,
+      gray,
+      violet
+    )
+    1;
+}
+.hov:hover {
+  border: 5px solid;
+  border-radius: 20px;
+  border-image-slice: 1;
+  background: white;
+  border-image: linear-gradient(to right, black, red, gold, blue, green, gray) 1;
+  color: black;
+  text-align: center;
+} */
